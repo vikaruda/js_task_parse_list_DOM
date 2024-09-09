@@ -1,0 +1,2 @@
+function r(r){return+r.replace(/[^0-9]/g,"")}var t,e,a=document.querySelectorAll("li[data-salary]");(t=Array.from(a)).sort(function(t,e){var a=r(t.dataset.salary);return r(e.dataset.salary)-a}),(e=document.querySelector("ul")).innerHTML="",t.forEach(function(r){return e.appendChild(r)}),console.log(Array.from(a).map(function(r){return{name:r.textContent.trim()}}));
+//# sourceMappingURL=index.f7ee5975.js.map
